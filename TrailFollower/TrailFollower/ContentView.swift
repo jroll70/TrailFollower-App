@@ -9,6 +9,12 @@ import SwiftUI
 import CoreLocation
 internal import UniformTypeIdentifiers
 
+extension UTType {
+    static var kml: UTType {
+        UTType(filenameExtension: "kml") ?? .xml
+    }
+}
+
 struct ContentView: View {
 
     // @State vars trigger a UI refresh when they change
@@ -107,7 +113,7 @@ struct ContentView: View {
             // File picker sheet
             .fileImporter(
                 isPresented: $isImporting,
-                allowedContentTypes: [.xml],  // KML files are XML under the hood
+                allowedContentTypes: [.xml, .kml],  // KML files are XML under the hood
                 allowsMultipleSelection: false
             ) { result in
                 handleFileImport(result)
