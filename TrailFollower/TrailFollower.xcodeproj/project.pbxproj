@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AB6E3FA72F6A4DAE0004BB69 /* TrailFollower Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB6E3FA62F6A4DAE0004BB69 /* TrailFollower Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AB6E3F772F69E4330004BB69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,51 @@
 			remoteGlobalIDString = AB6E3F682F69E4320004BB69;
 			remoteInfo = TrailFollower;
 		};
+		AB6E3FA82F6A4DAE0004BB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6E3F612F69E4320004BB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6E3FA52F6A4DAE0004BB69;
+			remoteInfo = "TrailFollower Watch App Watch App";
+		};
+		AB6E3FB62F6A4DB00004BB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6E3F612F69E4320004BB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6E3FA52F6A4DAE0004BB69;
+			remoteInfo = "TrailFollower Watch App Watch App";
+		};
+		AB6E3FC02F6A4DB00004BB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6E3F612F69E4320004BB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6E3FA52F6A4DAE0004BB69;
+			remoteInfo = "TrailFollower Watch App Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB6E3FCA2F6A4DB00004BB69 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AB6E3FA72F6A4DAE0004BB69 /* TrailFollower Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB6E3F692F69E4320004BB69 /* TrailFollower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailFollower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6E3F762F69E4330004BB69 /* TrailFollowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFollowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6E3F802F69E4330004BB69 /* TrailFollowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailFollowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6E3FA12F6A4DAE0004BB69 /* TrailFollower Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrailFollower Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6E3FA62F6A4DAE0004BB69 /* TrailFollower Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrailFollower Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6E3FB52F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrailFollower Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6E3FBF2F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TrailFollower Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -66,6 +109,21 @@
 			path = TrailFollowerUITests;
 			sourceTree = "<group>";
 		};
+		AB6E3FAA2F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TrailFollower Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		AB6E3FB82F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TrailFollower Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		AB6E3FC22F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TrailFollower Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +148,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB6E3FA32F6A4DAE0004BB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FB22F6A4DB00004BB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FBC2F6A4DB00004BB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,6 +178,9 @@
 				AB6E3F6B2F69E4320004BB69 /* TrailFollower */,
 				AB6E3F792F69E4330004BB69 /* TrailFollowerTests */,
 				AB6E3F832F69E4330004BB69 /* TrailFollowerUITests */,
+				AB6E3FAA2F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */,
+				AB6E3FB82F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests */,
+				AB6E3FC22F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests */,
 				AB6E3F6A2F69E4320004BB69 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +191,10 @@
 				AB6E3F692F69E4320004BB69 /* TrailFollower.app */,
 				AB6E3F762F69E4330004BB69 /* TrailFollowerTests.xctest */,
 				AB6E3F802F69E4330004BB69 /* TrailFollowerUITests.xctest */,
+				AB6E3FA12F6A4DAE0004BB69 /* TrailFollower Watch App.app */,
+				AB6E3FA62F6A4DAE0004BB69 /* TrailFollower Watch App Watch App.app */,
+				AB6E3FB52F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests.xctest */,
+				AB6E3FBF2F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +270,93 @@
 			productReference = AB6E3F802F69E4330004BB69 /* TrailFollowerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AB6E3FA02F6A4DAE0004BB69 /* TrailFollower Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6E3FCB2F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App" */;
+			buildPhases = (
+				AB6E3F9F2F6A4DAE0004BB69 /* Resources */,
+				AB6E3FCA2F6A4DB00004BB69 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6E3FA92F6A4DAE0004BB69 /* PBXTargetDependency */,
+			);
+			name = "TrailFollower Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TrailFollower Watch App";
+			productReference = AB6E3FA12F6A4DAE0004BB69 /* TrailFollower Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		AB6E3FA52F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6E3FC72F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App Watch App" */;
+			buildPhases = (
+				AB6E3FA22F6A4DAE0004BB69 /* Sources */,
+				AB6E3FA32F6A4DAE0004BB69 /* Frameworks */,
+				AB6E3FA42F6A4DAE0004BB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB6E3FAA2F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */,
+			);
+			name = "TrailFollower Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TrailFollower Watch App Watch App";
+			productReference = AB6E3FA62F6A4DAE0004BB69 /* TrailFollower Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB6E3FB42F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6E3FCE2F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App Watch AppTests" */;
+			buildPhases = (
+				AB6E3FB12F6A4DB00004BB69 /* Sources */,
+				AB6E3FB22F6A4DB00004BB69 /* Frameworks */,
+				AB6E3FB32F6A4DB00004BB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6E3FB72F6A4DB00004BB69 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB6E3FB82F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests */,
+			);
+			name = "TrailFollower Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TrailFollower Watch App Watch AppTests";
+			productReference = AB6E3FB52F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB6E3FBE2F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6E3FD12F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App Watch AppUITests" */;
+			buildPhases = (
+				AB6E3FBB2F6A4DB00004BB69 /* Sources */,
+				AB6E3FBC2F6A4DB00004BB69 /* Frameworks */,
+				AB6E3FBD2F6A4DB00004BB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6E3FC12F6A4DB00004BB69 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AB6E3FC22F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests */,
+			);
+			name = "TrailFollower Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TrailFollower Watch App Watch AppUITests";
+			productReference = AB6E3FBF2F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +378,20 @@
 						CreatedOnToolsVersion = 26.0.1;
 						TestTargetID = AB6E3F682F69E4320004BB69;
 					};
+					AB6E3FA02F6A4DAE0004BB69 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					AB6E3FA52F6A4DAE0004BB69 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					AB6E3FB42F6A4DB00004BB69 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = AB6E3FA52F6A4DAE0004BB69;
+					};
+					AB6E3FBE2F6A4DB00004BB69 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = AB6E3FA52F6A4DAE0004BB69;
+					};
 				};
 			};
 			buildConfigurationList = AB6E3F642F69E4320004BB69 /* Build configuration list for PBXProject "TrailFollower" */;
@@ -224,6 +411,10 @@
 				AB6E3F682F69E4320004BB69 /* TrailFollower */,
 				AB6E3F752F69E4330004BB69 /* TrailFollowerTests */,
 				AB6E3F7F2F69E4330004BB69 /* TrailFollowerUITests */,
+				AB6E3FA02F6A4DAE0004BB69 /* TrailFollower Watch App */,
+				AB6E3FA52F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */,
+				AB6E3FB42F6A4DB00004BB69 /* TrailFollower Watch App Watch AppTests */,
+				AB6E3FBE2F6A4DB00004BB69 /* TrailFollower Watch App Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +435,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AB6E3F7E2F69E4330004BB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3F9F2F6A4DAE0004BB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FA42F6A4DAE0004BB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FB32F6A4DB00004BB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FBD2F6A4DB00004BB69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,6 +493,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB6E3FA22F6A4DAE0004BB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FB12F6A4DB00004BB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6E3FBB2F6A4DB00004BB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,6 +526,21 @@
 			isa = PBXTargetDependency;
 			target = AB6E3F682F69E4320004BB69 /* TrailFollower */;
 			targetProxy = AB6E3F812F69E4330004BB69 /* PBXContainerItemProxy */;
+		};
+		AB6E3FA92F6A4DAE0004BB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6E3FA52F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */;
+			targetProxy = AB6E3FA82F6A4DAE0004BB69 /* PBXContainerItemProxy */;
+		};
+		AB6E3FB72F6A4DB00004BB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6E3FA52F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */;
+			targetProxy = AB6E3FB62F6A4DB00004BB69 /* PBXContainerItemProxy */;
+		};
+		AB6E3FC12F6A4DB00004BB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6E3FA52F6A4DAE0004BB69 /* TrailFollower Watch App Watch App */;
+			targetProxy = AB6E3FC02F6A4DB00004BB69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FLX334G6L6;
@@ -432,6 +688,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = name.jonathanryan.TrailFollower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -447,6 +704,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FLX334G6L6;
@@ -465,6 +723,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = name.jonathanryan.TrailFollower;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -555,6 +814,196 @@
 			};
 			name = Release;
 		};
+		AB6E3FC82F6A4DB00004BB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLX334G6L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrailFollower Watch App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show your position on the trail";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.jonathanryan.TrailFollower.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		AB6E3FC92F6A4DB00004BB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLX334G6L6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrailFollower Watch App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to show your position on the trail";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = name.jonathanryan.TrailFollower.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		AB6E3FCC2F6A4DB00004BB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLX334G6L6;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrailFollower Watch App";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.jonathanryan.TrailFollower-Watch-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB6E3FCD2F6A4DB00004BB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FLX334G6L6;
+				INFOPLIST_KEY_CFBundleDisplayName = "TrailFollower Watch App";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.jonathanryan.TrailFollower-Watch-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB6E3FCF2F6A4DB00004BB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.jonathanryan.TrailFollower-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailFollower Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrailFollower Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		AB6E3FD02F6A4DB00004BB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.jonathanryan.TrailFollower-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailFollower Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrailFollower Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		AB6E3FD22F6A4DB00004BB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.jonathanryan.TrailFollower-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TrailFollower Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		AB6E3FD32F6A4DB00004BB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "name.jonathanryan.TrailFollower-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TrailFollower Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,6 +1039,42 @@
 			buildConfigurations = (
 				AB6E3F912F69E4330004BB69 /* Debug */,
 				AB6E3F922F69E4330004BB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6E3FC72F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6E3FC82F6A4DB00004BB69 /* Debug */,
+				AB6E3FC92F6A4DB00004BB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6E3FCB2F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6E3FCC2F6A4DB00004BB69 /* Debug */,
+				AB6E3FCD2F6A4DB00004BB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6E3FCE2F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6E3FCF2F6A4DB00004BB69 /* Debug */,
+				AB6E3FD02F6A4DB00004BB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6E3FD12F6A4DB00004BB69 /* Build configuration list for PBXNativeTarget "TrailFollower Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6E3FD22F6A4DB00004BB69 /* Debug */,
+				AB6E3FD32F6A4DB00004BB69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

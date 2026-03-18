@@ -20,6 +20,7 @@ struct ContentView: View {
     @State private var coordinates: [CLLocationCoordinate2D] = []
     @State private var errorMessage: String?
     @State private var importedFileName: String = ""
+    private let sessionManager = PhoneSessionManager.shared
 
     var body: some View {
         NavigationStack {
@@ -59,7 +60,7 @@ struct ContentView: View {
                 
 #if DEBUG
 Button {
-    if let url = Bundle.main.url(forResource: "YOUR_FILE_NAME", withExtension: "kml") {
+    if let url = Bundle.main.url(forResource: "Daughenbaugh Open Space to gravity Brewing", withExtension: "kml") {
         let parser = KMLParser()
         let parsed = parser.parse(url: url)
         if parsed.isEmpty {
@@ -93,6 +94,18 @@ Button {
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                             .padding(.horizontal)
                     }
+                    Button {
+                            let sendable = coordinates.map { (lat: $0.latitude, lon: $0.longitude) }
+                            sessionManager.sendCoordinates(sendable)
+                        } label: {
+                            Label("Send to Watch", systemImage: "applewatch")
+                                .frame(maxWidth: .infinity)
+                                .padding()
+                                .background(Color.indigo)
+                                .foregroundStyle(.white)
+                                .clipShape(RoundedRectangle(cornerRadius: 12))
+                                .padding(.horizontal)
+                        }
                 }
 
             }
