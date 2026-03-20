@@ -12,6 +12,8 @@ class KMLParser: NSObject, XMLParserDelegate {
     private(set) var coordinates: [CLLocationCoordinate2D] = []
     private var currentElement = ""
     private var currentText = ""
+    private var currentLat: Double?
+    private var currentLon: Double?
     
     func parse(url: URL) -> [CLLocationCoordinate2D] {
         coordinates = []
@@ -31,6 +33,16 @@ class KMLParser: NSObject, XMLParserDelegate {
                 attributes: [String: String] = [:]) {
         currentElement = elementName
         currentText = ""
+        
+        // Handle GPX trkpt elements - coordinates are in attributes
+        if elementName == "trkpt" {
+            if let latStr = attributes["lat"],
+               let lonStr = attributes["lon"],
+               let lat = Double(latStr),
+               let lon = Double(lonStr) {
+                coordinates.append(CLLocationCoordinate2D(latitude: lat, longitude: lon))
+            }
+        }
     }
     
     func parser(_ parser: XMLParser, foundCharacters string: String) {
